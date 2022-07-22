@@ -19,7 +19,7 @@ func Test03() (value int) { //方式3, 给返回值命名
 
 //多个返回值
 func Demo1() (int, string) {
-	return 250,"sb"
+	return 250, "sb"
 }
 
 func Demo2() (a int, str string) {
@@ -28,12 +28,11 @@ func Demo2() (a int, str string) {
 	return
 }
 
-
 func main() {
 	test02 := Test02()
-	fmt.Println("result is ",test02)
+	fmt.Println("result is ", test02)
 	test03 := Test03()
-	fmt.Println("result is ",test03)
+	fmt.Println("result is ", test03)
 	dd, ss := Demo1()
-	fmt.Printf("first is %d, second is %s\n",dd,ss)
+	fmt.Printf("first is %d, second is %s\n", dd, ss)
 }

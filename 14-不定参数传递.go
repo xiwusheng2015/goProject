@@ -4,7 +4,7 @@ import "fmt"
 
 func MyFuncTT(args ...int) {
 	fmt.Println("MyFunc01")
-	for _,n := range args {
+	for _, n := range args {
 		fmt.Println(n)
 	}
 }
@@ -18,11 +18,11 @@ func MyFunc02(args ...int) {
 }
 
 func Test(args ...int) {
-	MyFuncTT(args ...)
-	MyFunc02(args[1:] ...)
+	MyFuncTT(args...)
+	MyFunc02(args[1:]...)
 }
 
 func main() {
 	//Test01(33,44)
-	Test(1,2,3)
+	Test(1, 2, 3)
 }
