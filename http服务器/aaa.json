@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "result": "success",
+    "operationId": 3151703,
+    "outputs": {
+      "all_machines": "[qixin-intl-prod-zookeeper-c577f6024.qiyi.virtaul,qixin-intl-prod-zookeeper-ac9968b5e.qiyi.virtual,qixin-intl-prod-zookeeper-9fa5be8b7.qiyi.virtual,qixin-intl-prod-zookeeper-afccd8d04.qiyi.virtual,qixin-intl-prod-zookeeper-25c327dad.qiyi.virtual]",
+      "vm_hosts": "[qixin-intl-prod-zookeeper-c577f6024.qiyi.virtaul,qixin-intl-prod-zookeeper-ac9968b5e.qiyi.virtual,qixin-intl-prod-zookeeper-9fa5be8b7.qiyi.virtual,qixin-intl-prod-zookeeper-afccd8d04.qiyi.virtual,qixin-intl-prod-zookeeper-25c327dad.qiyi.virtual]",
+      "ph_ips": "null"
+    }
+  }
+}
